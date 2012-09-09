@@ -33,6 +33,7 @@ clang_rewrite_SRC_FILES := \
   TokenRewriter.cpp
 
 LOCAL_SRC_FILES := $(clang_rewrite_SRC_FILES)
+LOCAL_CFLAGS := -fno-strict-aliasing
 
 
 include $(CLANG_HOST_BUILD_MK)
