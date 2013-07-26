@@ -45,6 +45,7 @@ LOCAL_STATIC_LIBRARIES := \
   libclangBasic \
   libLLVMARMAsmParser \
   libLLVMARMCodeGen \
+  libLLVMARMAsmPrinter \
   libLLVMARMDisassembler \
   libLLVMARMDesc \
   libLLVMARMInfo \
@@ -75,6 +76,7 @@ LOCAL_STATIC_LIBRARIES := \
   libLLVMMC \
   libLLVMMCParser \
   libLLVMScalarOpts \
+  libLLVMTransformObjCARC \
   libLLVMTransformUtils \
   libLLVMVectorize \
   libLLVMAnalysis \
